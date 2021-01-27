@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --color1: rgba(8, 8, 110, 0.313);
+    --color2: rgb(226, 218, 205);
+    --color3: rgba(12, 12, 50, 0.472);
+    --color4: rgb(147, 189, 200);
+    --font1: 'Inconsolata', monospace;
+}
+::-webkit-scrollbar {
+    display: none;
+  }
+
+/* etiquetas */
+
+body {
+    background-image: url(./src/img/bg-code.jpg);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-size: cover;
+    font-family: var(--font1);
+}
+a{
+    text-decoration: none;
+    color: var(--color4);
+}
+a:hover{
+    text-decoration: none;
+    color: var(--color2);
+}
+a img{
+    width: auto;  
+    height: 200px; 
+}
+hr{
+    height: 1px;
+    background-color: aliceblue;
+    border: 2px solid rgb(75, 48, 15);
+    border-radius: 50%;
+}
+ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+span {
+    padding: 3px;
+    background-color: var(--color3);
+    border: 2px solid var(--color1);
+    border-radius: 10px;
+    text-align: left;
+}
+
+
+/* clases */
+
+.container {
+    background-color: var(--color1);
+}
+
+.cuadroEX {
+    height: 220px;
+    text-align: center;
+}
+
+.Tools {
+    height: 450px;
+    overflow-y: scroll;
+    scrollbar-shadow-color: rgb(80, 78, 76);
+}
+
+.t1 {
+    margin: 3px;
+    padding: 3px;
+    background-color: rgba(39, 28, 30, 0.548);
+    border: 2px double var(--color4);
+}
+
+.t1 img {
+    width: 20%;
+    max-height: 100px;
+}
+
+.t2 {
+    width: 80%;
+    text-align: center;
+}
+
+.cuadroEX {
+    overflow-y: scroll;
+}
+
+.btn-last {
+    background-image: radial-gradient(rgb(107, 107, 59), rgb(48, 45, 45));
+    color: var(--color2);
+    border-right: 2px solid rgb(138, 64, 64);
+    border-radius: 10px;
+}
+
+.btn-last:hover {
+    border-right: 2px solid rgb(73, 138, 64);
+    color: var(--color2);
+}
+
+.miniHeader {
+    padding: 3px;
+    background-color: var(--color3);
+    border: 2px solid var(--color1);
+    border-radius: 10px;
+    text-align: left;
+}
+.demos{
+    text-align: center;
+}
+.header,
+.nav,
+.bio,
+.foto,
+.Tools,
+.cuadroEX,
+.guardar {
+    background-color: var(--color3);
+    color: var(--color2);
+    margin-top: 4px;
+    margin-bottom: 4px;
+    border: 3px solid var(--color1);
+    border-radius: 5px;
+}
+
+.cuadroEX,
+.header,
+.nav,
+.bio,
+.guardar,
+.Tools
+{
+    box-shadow: 3px 3px 3px 0px #150eee41,
+    inset 4px 4px 8px 0px #5353947e;
+}
+
+/* selectores */
+
+
+/* media */
